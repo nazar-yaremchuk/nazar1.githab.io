@@ -1,0 +1,47 @@
+.menu {
+    margin: 5%;
+}
+.back {
+    position: relative;
+    display: block;
+}
+
+
+.image{
+    padding: 2%;
+}
+.desc {
+    text-align: center;
+    margin: 12%;
+}
+.imgs1 {
+    margin: 20%;
+}
+#a {
+width: 95%;
+}
+#b {
+width: 45%;
+}
+#c {
+width: 45%;
+}
+#f {
+width: 95%;
+}
+#d {
+width: 45%;
+}
+#e {
+width: 45%;
+}
+#g {
+width: 45%;
+}
+#h {
+width: 45%;
+}
+
+#backtt{
+    float: right;
+}

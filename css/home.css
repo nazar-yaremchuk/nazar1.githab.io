@@ -1,0 +1,106 @@
+﻿
+.sections {
+    display: flex;
+    padding-bottom: 8%;
+    padding-top: 8%;
+    padding-left: 5%;
+    padding-right: 5%;
+    justify-content: center;
+}
+
+.sectionTextm {
+    text-align: center;
+}
+
+.sectionText {
+    text-align: center;
+    margin: 12%;
+}
+
+#start {
+    flex-direction: column;
+}
+
+#callme {
+    float: left;
+    margin-left: 10%;
+}
+#myprojects {
+    float: right;
+    margin-right: 10%;
+    }
+#headerimg {
+    max-width: 40%;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+margin-top: 5%;
+    margin-bottom: 5%;
+}
+.blockProj {
+    margin: 0 2% 5% 2%;
+    float: left;
+    text-align: left;dropbtn
+  
+}
+
+.blockProj2 {
+    margin: 0 2% 5% 2%;
+    float: left;
+    text-align: left;
+}
+
+.projImage {
+    width: 90%;
+    float: right;
+    
+  
+}
+#Callme {
+    flex-direction: column;
+}
+
+#smile {
+    float: right;
+    width: 20%;
+}
+
+
+/*drop down menu*/
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin: 20%;
+    float: left;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 100px;
+    rgba(0,0,0,0.2);
+    z-index: 1;
+    margin: 0 0 0 0;
+}
+
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+        .dropdown-content a:hover {
+            background-color: white;
+        }
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: white;
+}
